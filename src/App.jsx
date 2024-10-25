@@ -1,16 +1,14 @@
 import React from 'react'
 import Login from './Components/Auth/Login'
-import Header from './Components/Other/Header'
-import TaskNumberList from './Components/Other/TaskNumberList'
-import TaskList from './Components/TaskList/TaskList'
+import EmplyeeDashboard from './Components/Dashboard/EmplyeeDashboard'
+import AdminDashboard from './Components/Dashboard/AdminDashboard'
 
 function App() {
   return (
     <div>
       {/* <Login/> */}
-      <Header />
-      <TaskNumberList />
-      <TaskList />
+      <EmplyeeDashboard />
+      {/* <AdminDashboard /> */}
     </div>
   )
 }
